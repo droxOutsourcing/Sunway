@@ -7,24 +7,23 @@
       "config": {
         "distDir": "dist/public"
       }
-    },
-    {
-      "src": "api/test.js",
-      "use": "@vercel/node"
-    },
-    {
-      "src": "api/login.js",
-      "use": "@vercel/node"
     }
   ],
+  "functions": {
+    "api/test.js": {
+      "runtime": "@vercel/node@3"
+    },
+    "api/login.js": {
+      "runtime": "@vercel/node@3"
+    },
+    "api/hello.js": {
+      "runtime": "@vercel/node@3"
+    }
+  },
   "routes": [
     {
-      "src": "/api/test",
-      "dest": "/api/test.js"
-    },
-    {
-      "src": "/api/auth/login",
-      "dest": "/api/login.js"
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
     },
     {
       "src": "/(.*)",

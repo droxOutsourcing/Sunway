@@ -1,7 +1,7 @@
-// 로그인 API - 단순화된 버전
-const { createClient } = require('@supabase/supabase-js');
+// 로그인 API - Vercel 형식
+import { createClient } from '@supabase/supabase-js';
 
-module.exports = async (req, res) => {
+export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
@@ -87,4 +87,4 @@ module.exports = async (req, res) => {
       message: 'Server error: ' + error.message 
     });
   }
-};
+}

@@ -10,13 +10,7 @@
     }
   ],
   "functions": {
-    "api/test.js": {
-      "runtime": "@vercel/node@3"
-    },
-    "api/login.js": {
-      "runtime": "@vercel/node@3"
-    },
-    "api/hello.js": {
+    "api/*.js": {
       "runtime": "@vercel/node@3"
     }
   },

@@ -1,5 +1,5 @@
 import svgPaths from "./svg-rm451kdufz";
-import imgTeam from "figma:asset/deb33417dc4d5dfb61cd4b44a2ed9b2d253a8123.png";
+import { imgTeam } from "../src/assets/images/placeholder";
 import { imgGroup, imgGroup1 } from "./svg-empjj";
 
 function Group() {

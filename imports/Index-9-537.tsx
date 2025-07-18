@@ -1,16 +1,5 @@
 import svgPaths from "./svg-rc4gtmbmhr";
-import imgRectangle10 from "figma:asset/21132b55dd0e427d80574c00ef1c95fe69d9eda3.png";
-import imgFrame98 from "figma:asset/01017c238e26936ca54d967bf455075dd17f6ac7.png";
-import imgFrame99 from "figma:asset/728fac6f1da5dd7e42e34f80889d9fd907209556.png";
-import imgFrame100 from "figma:asset/bf9b481ef450ad3b53f412d6b986c2ac08c589e5.png";
-import imgFrame101 from "figma:asset/37d0d7357e03ae6c753172b7cbb74dadc820d492.png";
-import imgFrame102 from "figma:asset/f257f2cd318b98048f672c489bf95f43a7b5a90f.png";
-import imgRectangle11 from "figma:asset/563aeb1f3ce4d2c1f661d4f698fdaf658ca0d888.png";
-import imgRectangle1 from "figma:asset/e39be1a19c74a76e4594a22e01496322737d2e99.png";
-import imgRectangle2 from "figma:asset/64aeacbd4b789fa1e31ca61faf2cdacaa0593fbe.png";
-import imgRectangle3 from "figma:asset/36f394b58a17415a78cda4d0c8a15b7b8f5e538b.png";
-import imgRectangle4 from "figma:asset/e182f49d1acbc17e200d585dffaf4dbb9a7e7424.png";
-import imgRectangle5 from "figma:asset/4e55d09702aadc538cebca4fe06d270ca0add0f7.png";
+import { imgRectangle10, imgFrame98, imgFrame99, imgFrame100, imgFrame101, imgFrame102, imgRectangle11, imgRectangle1, imgRectangle2, imgRectangle3, imgRectangle4, imgRectangle5 } from "../src/assets/images/placeholder";
 import { imgGroup, imgGroup1 } from "./svg-s3f8m";
 
 function Group() {

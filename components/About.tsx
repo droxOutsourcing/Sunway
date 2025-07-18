@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Header from "./Header";
 import svgPaths from "../imports/svg-u2r3bcataf";
-import imgRectangle3 from "figma:asset/be491c61d89383156a71c02b21509b6e44edabd5.png";
+import { imgRectangle3 } from "../src/assets/images/placeholder";
 import { imgGroup1 } from "../imports/svg-t3qwk";
 
 interface NavigationProps {

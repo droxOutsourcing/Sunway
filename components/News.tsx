@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Header from "./Header";
 import svgPaths from "../imports/svg-rta2n54yt6";
-import imgFrame1021 from "figma:asset/99cbc9b1e0357dc5afdd5ea6021834ca1fbab91a.png";
+import { imgFrame1021 } from "../src/assets/images/placeholder";
 import { imgGroup1 } from "../imports/svg-m97yk";
 
 interface NavigationProps {

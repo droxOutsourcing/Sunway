@@ -1,6 +1,6 @@
 import { useState } from "react";
 import svgPaths from "../imports/svg-w4baxm3xvx";
-import imgTeam from "figma:asset/deb33417dc4d5dfb61cd4b44a2ed9b2d253a8123.png";
+import { imgTeam } from "../src/assets/images/placeholder";
 import { imgGroup, imgGroup1 } from "../imports/svg-82bn8";
 
 interface NavigationProps {

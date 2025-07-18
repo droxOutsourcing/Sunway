@@ -1,10 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import svgPaths from "../imports/svg-2bidt2cyr6";
-import imgFrame98 from "figma:asset/01017c238e26936ca54d967bf455075dd17f6ac7.png";
-import imgFrame99 from "figma:asset/728fac6f1da5dd7e42e34f80889d9fd907209556.png";
-import imgFrame100 from "figma:asset/bf9b481ef450ad3b53f412d6b986c2ac08c589e5.png";
-import imgFrame101 from "figma:asset/37d0d7357e03ae6c753172b7cbb74dadc820d492.png";
-import imgFrame102 from "figma:asset/f257f2cd318b98048f672c489bf95f43a7b5a90f.png";
+import { imgFrame98, imgFrame99, imgFrame100, imgFrame101, imgFrame102 } from "../src/assets/images/placeholder";
 
 interface ServiceCardProps {
   title: string;
